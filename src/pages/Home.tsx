@@ -1,8 +1,12 @@
 import React from "react";
+import Counter from "../components/Counter";
 
 const Home = () => {
     return (
-        <div>这是Home页面</div>
+        <div>
+            <p>这是Home页面</p>
+            <Counter />
+        </div>
     )
 }
 
